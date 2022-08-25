@@ -1,0 +1,177 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-weight: 600;
+  color: #000;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  
+}
+
+h3 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+}
+
+a {
+  color: #084f70;
+}
+
+hr {
+  border: 0;
+  height: 40px;
+  background-image: url(images/fireflys.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  /* margin-left: auto;
+  margin-right: auto;   */
+  padding: 0;
+position:relative;
+margin: 15px auto;
+}
+
+.top {
+  background-color: #ddf2eb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #fff;
+  margin-bottom: 5%;
+}
+
+.bottom-container {
+  background-color: #084f70;
+}
+
+.bottom-butterfly {
+  position: absolute;
+  left: 15%;
+  top: 55%;
+  max-width: 10%;
+  height: auto;
+  margin: 0%;
+}
+
+.top-butterfly {
+  position: absolute;
+  left: 82%;
+  right: 300px;
+  bottom: 75%;
+  max-width: 12%;
+  height: auto;
+  margin: 0%;
+}
+
+.middle-picture {
+  position: relative;
+  margin: 0;
+  max-width: fit-content;
+}
+
+.heatherphoto {
+  /* position: relative; */
+  /* background-color: blueviolet; */
+  max-width: 30%;
+  height: auto;
+  object-fit: contain;
+  float: left;
+}
+
+.profile {
+  text-align: center;
+  size: auto;
+  display: inline-block;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* Ux skill section  */
+.handGif {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* .uxpar{
+} */
+
+/* Graphic skill section */
+
+.mouseGif {
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .graphicpar{
+} */
+
+/* adventure section */
+
+.naturepic {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-link {
+  color: #ddf2eb;
+}
+
+.footer-copyright {
+  color: #ddf2eb;
+  padding-top: 2%;
+}
+
+@media(max-width:600px){
+hr{
+    color: #000;
+    background: #000; 
+    width: 30%; 
+    height: 4px;
+}
+  } 
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Cormorant Garamond";
+  color: #000;
+  font-size: 20px;
+  background: #8695e1;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #084f70;
+  color: #fff;
+  text-decoration: none;
+}
